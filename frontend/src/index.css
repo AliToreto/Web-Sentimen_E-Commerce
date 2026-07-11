@@ -1,0 +1,47 @@
+:root {
+  --paper: #faf8f4;
+  --paper-raised: #ffffff;
+  --ink: #1c1b19;
+  --ink-soft: #5c574e;
+  --line: #e4ddd1;
+  --positif: #1f6f50;
+  --positif-bg: #e6f0e9;
+  --negatif: #b83b2e;
+  --negatif-bg: #f6e6e3;
+  --accent: #c98a2c;
+  --font-display: 'Fraunces', Georgia, serif;
+  --font-body: 'Inter', -apple-system, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    transition-duration: 0.001ms !important;
+  }
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+}
+
+button {
+  font-family: inherit;
+}
+
+::selection {
+  background: var(--positif-bg);
+}
+
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}

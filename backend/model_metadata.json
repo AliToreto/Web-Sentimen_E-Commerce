@@ -1,0 +1,12 @@
+{
+  "model": "logistic_regression",
+  "accuracy": 0.8917050691244239,
+  "f1_macro": 0.8909961470841282,
+  "n_samples_total": 2326,
+  "n_train": 1865,
+  "n_test": 434,
+  "labels": [
+    "negatif",
+    "positif"
+  ]
+}
